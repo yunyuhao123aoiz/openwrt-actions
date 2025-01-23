@@ -31,12 +31,7 @@ jobs:
       # max-parallel: 2
       matrix:
         target:
-          - lede-openclash-x86-amd64
-          - lede-common-x86-amd64
-          - lede-common-r2s-arm64
           - lede-common-360t7-arm64
-          - lede-common-newifi_d2-mipsle_softfloat
-          - immortalwrt-openclash-x86-amd64
 
     steps:
       - name: Checkout
